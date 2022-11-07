@@ -24,8 +24,9 @@ public class Login {
 		// maximize the browser window
 		driver.manage().window().maximize();
 		
-		// Identify WebElement
-		WebElement eleUserName = driver.findElement(By.id("username"));
+		// Identify WebElement    by ---> class ( Ctrl+2 then     
+		
+		WebElement eleUserName = driver.findElement(By.id("username"));  
 		// Enter the Username
 		eleUserName.sendKeys("DemoSalesManager");
 		
