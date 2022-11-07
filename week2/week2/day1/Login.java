@@ -56,6 +56,9 @@ public class Login {
 		
 		Thread.sleep(2000);
 		
+		// for string firstName v have to click ctrl +2l after entering getText
+		
+		
 		String firstName = driver.findElement(By.id("viewLead_firstName_sp")).getText();
 		System.out.println(firstName);
 		
