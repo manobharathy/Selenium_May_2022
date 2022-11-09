@@ -10,7 +10,7 @@ Locators (8):
 
 xPath - XML Path
 
-1. Absolute xPath - It should start with root tag
+1. Absolute xPath - It should start with root tag ( the complete path)
     - It should start with  '/'
     - Fastest
 /html/body/div[2]/div[2]/div/form/p/input
