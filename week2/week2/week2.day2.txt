@@ -41,11 +41,11 @@ Basic xPath:
 
 //input[@value='Login']
 
-2. Text Based xPath:
+2. Text Based xPath: ( the text in black color)
 //tagName[text()='textValue']
 //h2[text()='Leaftaps Login']
 
-3. Partial Attribute based xPath:
+3. Partial Attribute based xPath:(part of attribute)
 //tagName[contains(@attributeName,'attributeValue')]
 
 //input[contains(@class,'Submit')]
