@@ -122,14 +122,19 @@ basicXPathOfYoungerCousin/preceding::ElderCousinTagName
 
 
 Waits:
-9am - arrived before 15 mins
+thread.sleep(15000);- its from java it can wait maximum 15 sec to wait ie it can wait until 15sec to start the process if the element is already finded.
+9am - arrived before 15 mins-
 Max Time will be set, but I will start if it comes earlier
-1. Implicit Wait
-2. Explicit Wait
+
+1. Implicit Wait- to use in case of finding an element.(eg there is some delay to finding an element v go for implict wait)if the element is found it go to next step.
+ it can be use at front ie after max window then only it applicable for all the element
+ //.driver.manage().timeout.implictWait(Duration.of seconds(30));   maximum v use 30s in real time - if it found it will go for next step.
+
+2. Explicit Wait- 
 
 
 // How to get options
-		List<WebElement> options = dd.getOptions();
+		List<WebElement> options = dd.getOptions();                                         Dom- document obejct model ie 12 coding in web
 		int size = dd.getOptions().size();
 		
 		for(int i=0; i< size; i++) {
