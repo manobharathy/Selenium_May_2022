@@ -18,7 +18,7 @@ Types:
 
 
 Access Specifiers:
-1. public - Global Level Access 
+1. public - Global Level Access  (
     (inside package (extends, object)) + outside package (extends, object)
 2. protected - (inside package (extends, object)) + outside package (extends)
 3. default - (inside package (extends, object))
